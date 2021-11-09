@@ -1,0 +1,22 @@
+.jou{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #0D6EFD;
+    color: white;
+    border-radius: 5px;
+}
+.mft{
+    margin-left: 48px;
+    width: 150px;
+}
+.glik{
+    display: flex;
+    font-size: 22px;
+    color: #ea00ff;
+    font-weight: 500;
+}
+.class-uzb{
+    margin-top: -5px;
+    margin-left: 5px;
+}

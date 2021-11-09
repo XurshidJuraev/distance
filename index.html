@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>km Calcularor (O'zbek Tilida)</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body class="bg-info">
+
+    <div class="container">
+        <h1 class="text-danger text-center mt-5 mb-5">Tezlikni Birga Hisoblaymiz</h1>
+
+        <form class="time__form mx-auto w-50" action="" method="GET">
+            <div class="form-group d-md-flex mx-auto flex-nowrap">
+              <label class="distance__label h3 text-white text-center" for="#distance">Masofani Kiriting</label>
+              <input class="distance__input form-control mx-md-3 mb-2 w-100" type="number" min="1" max="99999999"  id="masofa" name="distance" placeholder="                     Masofani Kiriting" aria-label="Input a distance" required>
+              <button id="button" class="jou" type="submit">Convert</button>
+            </div>
+        </form>
+
+        <div class="d-flex mt-5">
+            <div class="card" style="width: 18rem;">
+                <img src="./img/pngegg.png" class="card-img-top" alt="walk">
+                <div class="card-body">
+                    <h5 class="card-title text-warning mft text-center">Piyoda</h5>
+                  <div class="glik">
+                    <h5 class="card-title" id="piyoda">0</h5> <span class="class-uzb">Soat</span>
+                  </div>
+                </div>
+            </div>
+    
+            <div class="card" style="width: 18rem;">
+                <img src="./img/pngegg (1).png" class="card-img-top" alt="walk">
+                <div class="card-body">
+                    <h5 class="card-title text-warning mft text-center">Velosipedda</h5>
+                  <div class="glik">
+                    <h5 class="card-title" id="velosiped">0</h5> <span class="class-uzb">Soat</span>
+                  </div>
+                </div>
+            </div>
+    
+            <div class="card" style="width: 18rem;">
+                <img src="./img/pngegg (2).png" class="card-img-top" alt="walk">
+                <div class="card-body">
+                    <h5 class="card-title text-warning mft text-center">Mashinada</h5>
+                  <div class="glik">
+                    <h5 class="card-title" id="mashina">0</h5> <span class="class-uzb">Soat</span>
+                  </div>
+                </div>
+            </div>
+    
+            <div class="card" style="width: 18rem;">
+                <img src="./img/pngegg (3).png" class="card-img-top" alt="walk">
+                <div class="card-body">
+                    <h5 class="card-title text-warning mft text-center">Samolyotda</h5>
+                 <div class="glik">
+                    <h5 class="card-title" id="samolyot">0</h5> <span class="class-uzb">Soat</span>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
